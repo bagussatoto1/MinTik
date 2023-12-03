@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Judul Halaman -->
+	<title>MinTik</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icon -->
+	<link rel="shortcut icon" href="static/favicon.ico">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="static/css/client_side.css"  type="text/css">
+	
+	<!-- JavaScript -->
+	<script src="static/js/jquery_3.6.0.min.js" ></script>
+	<script src="static/js/bootstrap_3.4.1.min.js"></script>
+</head>
+
+<body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgb(207, 122, 169);z-index: 0;">
+		<div class="container">
+			
+			<!-- Logo -->
+			<div class="navbar-header">
+				<img src="static/images/logo/tinbot.png" alt="Logo MinTik" 
+				width="50" height="50" align="left">
+				<a class="navbar-brand" href="#halamanku">&#160; MinTik</a>
+			</div>
+			
+			<!-- Daftar Halaman -->
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#informasi">INFORMASI</a></li>
+					<li><a href="#anggotaKelompok">ANGGOTA KELOMPOK</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Bagian Halaman (Informasi) -->
+	<div id="informasi" class="container-fluid">
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-6">
+				<!-- Deskripsi Aplikasi -->
+				<h2>MinTik</h2> 
+				<h4>MinTik</h4><br>
+				<p style="text-align: justify;text-justify: inter-word;">
+					Website MinTik merupakan sebuah Admin Bot untuk 
+					menjawab pertanyaan mengenai informasi produk kecantikan berbasis Netural Language processing.
+				</p>
+			    <br>
+
+				<!-- Tombol Mulai -->
+				<nav id="navgo" class="navbar" style="background-color:#fff;z-index: 0;">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="btn btn-default btn-lg" href="/chatbot" style="background-color:#DA291C">Mulai</a>
+
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+			<div class="col-sm-6">
+				<br>
+				<br>
+				<!-- Gambar Deskripsi Aplikasi -->
+				<img src="static/images/logo/produk kecantikan.jpeg" width="500" ></img>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bagian Halaman (Anggota Kelompok) -->
+	<div id="anggotaKelompok" class="container-fluid text-center">
+		<br>
+		<h2>ANGGOTA KELOMPOK</h2>
+		<h4>Tim Deployment dan Tim NLP</h4>
+		<br>
+		<div class="row slideanim">
+			<div class="col-sm-6">
+				<img src='./static/images/profile/bagus1.png' alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+				<h4>Bagus Budi Satoto</h4>
+				<p>Universitas Amikom</p>
+			</div>
+			<div class="col-sm-6">
+				<img src='./static/images/profile/naila.png' alt="Mahasiswa" 
+				width="150" height="150" align="top">
+				<h4>Naila Nur Safitri</h4>
+				<p>Universitas Negeri Yogyakarta</p>
+			</div>
+		</div>
+	    <br>
+	    <div class="row slideanim">
+			<div class="col-sm-6">
+				<img src='./static/images/profile/bagus1.png' alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+				<h4>Mujtaba Fa’akuli Zazila</h4>
+				<p>Politeknik Perkapalan Negeri Surabaya</p>
+			</div>
+			<div class="col-sm-6">
+        <br>
+				<img src='./static/images/profile/bagus1.png' alt="Foto Mahasiswa" 
+				width="150" height="150" align="top">
+        <br><br>
+				<h4>Rhizma Elliza Putri</h4>
+				<p>Universitas Pembangunan Nasional Veteran Jawa Timur</p>
+			</div>
+	    </div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="container-fluid text-center">
+		<a href="#halamanku" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<p>Orbit Future Academy <br> <a href="https://orbitfutureacademy.id/">orbitfutureacademy.id</a></p>
+	</footer>
+
+	<!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
+	<script  src='./static/js/client_side.js' ></script>
+
+</body>
+</html>

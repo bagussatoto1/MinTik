@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Hai",
+        "Hi",
+        "Halo",
+        "Selamat Pagi",
+        "Selamat Siang",
+        "Selamat Malam"
+      ],
+      "responses": [
+        "Halo, Saya adalah MinTik :). Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Selamat Tinggal",
+        "Dah",
+        "Semoga harimu menyenangkan",
+        "Sampai Jumpa Lagi",
+        "Ok bye"
+      ],
+      "responses": [
+        "Sampai jumpa lagi yaa :)",
+        "Kalau kamu bingung milih menu lagi, Hubungi aku ya",
+        "Semoga harimu menyenangkan!"
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "nama kamu siapa?",
+        "namamu siapa?",
+        "siapa sih lo?",
+        "kamu siapa?",
+        "nama?"
+      ],
+      "responses": [
+        "Namaku MinTik, salam kenal ya!",
+        "Halo, aku Mintik!",
+        "Kenalin, aku MinTik!"
+      ]
+    },
+    {
+      "tag": "tentang_bot",
+      "patterns": [
+        "Mintik itu apa?",
+        "MinTik itu apa?",
+        "emang MinTik apa sih?",
+        "wah apa tuh MinTik?",
+        "MinTik emang apa?",
+        "MinTik itu apa sih"
+      ],
+      "responses": [
+        "Website MinTik merupakan sebuah Admin Bot untuk 
+        menjawab pertanyaan mengenai informasi produk kecantikan berbasis Netural Language processing."
+      ]
+    },
+    {
+      "tag": "category_produk",
+      "patterns": [
+        "saya ingin produk untuk kulit",
+        "produk apa yang cocok untuk semua jenis kulit?",
+      ],
+      "responses": [
+        "Produk kulit yang kami tawarkan sangat banyak sekali"
+      ]
+    }
+  
+    ]
+  }
